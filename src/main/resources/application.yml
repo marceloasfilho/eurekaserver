@@ -2,6 +2,11 @@ spring:
   application:
     name: eurekaserver
 
+  security:
+    user:
+      name: mscredito-eureka-user
+      password: abcd@1234
+
 server:
   port: 8761
 
